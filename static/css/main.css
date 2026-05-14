@@ -345,5 +345,17 @@
     }
 
     @media (max-width: 900px) {
-      .language-switcher { display: none; }
+      .nav { gap: 12px; }
+      .nav-actions { margin-left: auto; gap: 8px; }
+      .language-switcher { display: flex; }
+      .language-switcher a { min-width: 32px; height: 32px; font-size: 0.72rem; }
+    }
+
+    @media (max-width: 460px) {
+      .brand { gap: 10px; letter-spacing: 0.1em; }
+      .brand > span:last-child { display: none; }
+      .brand-mark { width: 42px; height: 42px; border-radius: 14px; }
+      .theme-toggle { width: 40px; height: 40px; }
+      .language-switcher { gap: 4px; padding: 4px; }
+      .language-switcher a { min-width: 29px; height: 30px; font-size: 0.68rem; }
     }
