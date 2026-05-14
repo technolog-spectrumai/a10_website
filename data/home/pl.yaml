@@ -1,0 +1,110 @@
+meta_description: ATEN Direct Energy rozwija precyzyjne systemy laserowej energii kierunkowej dla przemysłu, badań i przyszłych zastosowań związanych z przestrzenią kosmiczną.
+nav:
+  technology: Technologia
+  systems: Systemy
+  applications: Zastosowania
+  space: Badania kosmiczne
+  contact: Kontakt
+theme_label: Przełącz tryb jasny i ciemny
+hero:
+  eyebrow: Systemy laserowej energii kierunkowej
+  title_before: Niezawodna, kontrolowana energia laserowa dla
+  title_span: wymagających zastosowań
+  lead: ATEN Direct Energy rozwija precyzyjne platformy laserowe dla przemysłu, badań i przyszłych zastosowań kosmicznych, łącząc kontrolę wiązki, stabilność termiczną, monitoring i modułową integrację.
+  cta_primary: Poznaj technologię
+  cta_secondary: Zobacz zastosowania
+stats:
+- title: Wysoka intensywność
+  text: Skupiona energia laserowa do wymagających eksperymentów i walidacji procesów.
+- title: Modułowość
+  text: Źródło, optyka, chłodzenie i sensory konfigurowane pod konkretny cel.
+- title: Mierzalność
+  text: Rejestrowane parametry wyjścia, diagnostyka i powtarzalne profile pracy.
+technology:
+  title: Zaawansowana kontrola wiązki laserowej
+  text: 'ATEN skupia się na praktycznej inżynierii laserowej energii kierunkowej: stabilności źródła, torach optycznych, kształtowaniu wiązki, kontroli sprzężenia zwrotnego, regulacji termicznej i bezpiecznych zakresach pracy.'
+  cards:
+  - title: Kierunkowe dostarczanie wiązki
+    text: Precyzyjne ustawienie optyki, ogniskowanie i sterowanie wiązką dla kontrolowanego umiejscowienia energii.
+    icon: beam
+  - title: Architektura modułowa
+    text: Wymienne moduły źródła, optyki, chłodzenia i sensorów przyspieszają iteracje projektowe.
+    icon: grid
+  - title: Monitoring w pętli zamkniętej
+    text: Ciągły pomiar mocy, temperatury, stabilności celowania i kondycji systemu.
+    icon: clock
+systems:
+  title: Projektowane pod mierzalną wydajność laserową
+  text: 'Systemy ATEN opierają się na jasnym procesie: zdefiniować cel optyczny, kontrolować ścieżkę energii, mierzyć wydajność i umożliwić powtarzalne wdrożenie.'
+  bullets:
+  - Dostarczanie mocy i wyjście optyczne charakteryzowane dla każdej konfiguracji.
+  - Zarządzanie temperaturą zaprojektowane dla stabilności podczas długich cykli pracy.
+  - Oprogramowanie do diagnostyki, kalibracji i rejestrowanych eksperymentów.
+  features:
+  - title: Precyzja optyczna
+    text: Wysokiej jakości zespoły optyczne wspierają dokładne celowanie, ogniskowanie i kondycjonowanie wiązki.
+  - title: Stabilność termiczna
+    text: Chłodzenie i transfer ciepła pomagają utrzymać przewidywalną pracę podczas dłuższego użycia.
+  - title: Oprogramowanie sterujące
+    text: Interfejsy operatora zapewniają profile testowe, kalibrację, logi, alerty i status systemu.
+  - title: Blokady bezpieczeństwa
+    text: Warstwowe mechanizmy sterowania wspierają procedury bezpieczeństwa laserowego w laboratoriach i przemyśle.
+applications:
+  title: Zastosowania laserowej energii kierunkowej
+  text: Platformy ATEN są projektowane dla zespołów, które potrzebują kontrolowanej i mierzalnej energii laserowej w wymagających procesach przemysłowych i badawczych.
+  cards:
+  - kicker: Przemysł
+    title: Zaawansowana obróbka materiałów
+    text: Energia laserowa o wysokiej intensywności do kontrolowanego nagrzewania, obróbki powierzchni, badań łączenia i walidacji procesów.
+  - kicker: Testy
+    title: Ekspozycja komponentów na obciążenia
+    text: Powtarzalne profile ekspozycji do oceny powłok, sensorów, osłon termicznych i elementów optycznych.
+  - kicker: Badania
+    title: Laboratoryjne platformy wiązki
+    text: Modułowe stanowiska do kształtowania wiązki, badań mocy, kalibracji detektorów i eksperymentów z energią kierunkową.
+  - kicker: Infrastruktura
+    title: Koncepcje zdalnego zasilania
+    text: Badanie precyzyjnego transferu energii, łączy optycznych i wysokosprawnych architektur dostarczania.
+  - kicker: Optyka
+    title: Ustawianie i kalibracja
+    text: Stabilne wiązki referencyjne i moduły diagnostyczne dla ładunków optycznych, uchwytów i precyzyjnych zespołów.
+  - kicker: Automatyzacja
+    title: Zintegrowane cele laserowe maszyn
+    text: Moduły laserowe przygotowane do połączenia z pozycjonowaniem robotycznym, sensorami i oprogramowaniem kontroli procesu.
+  - kicker: Energia
+    title: Badania wysokiego strumienia energii
+    text: Kontrolowany strumień do eksperymentów z wydajnością konwersji, absorpcyjnością i odpowiedzią termiczną.
+  - kicker: Przyszłość
+    title: Badania R&D dla przestrzeni kosmicznej
+    text: Wczesne ścieżki badań nad optycznym transferem energii, testami odporności ładunków i koncepcjami infrastruktury orbitalnej.
+lab:
+- title: Kształtowanie wiązki
+  text: Ognisko, rozbieżność, profil i geometria dostarczania.
+- title: Kontrola mocy
+  text: Powtarzalne profile wyjścia z rejestrowanymi danymi pracy.
+- title: Fuzja sensorów
+  text: Sprzężenie zwrotne mocy, temperatury, celowania i środowiska.
+- title: Integracja
+  text: Interfejsy sprzętowe i programowe dla obiektów testowych.
+space:
+  eyebrow: Nadchodzący kierunek badań
+  title: Przygotowanie systemów laserowych dla gospodarki kosmicznej.
+  p1: ATEN pozycjonuje swoją platformę laserowej energii kierunkowej pod badania związane z przestrzenią kosmiczną, w tym koncepcje optycznego transferu mocy, testy ekspozycji ładunków, badania odpowiedzi termicznej i precyzyjną kontrolę wiązki na dużych dystansach.
+  p2: Najpierw celem jest stworzenie niezawodnej infrastruktury testów naziemnych, a następnie rozwijanie sterowania, diagnostyki i architektury bezpieczeństwa potrzebnych do przyszłych demonstracji kosmicznych.
+mission:
+  title: Dla wymagających zespołów inżynieryjnych
+  text: ATEN wspiera organizacje rozwijające systemy laserowe wysokiej intensywności, kontrolowane środowiska testowe i zaawansowane zastosowania energii optycznej.
+  cards:
+  - title: Badania i rozwój
+    text: Prototypowanie, instrumentacja i walidacja koncepcji laserowej energii kierunkowej na platformie modułowej.
+  - title: Integracja przemysłowa
+    text: Adaptacja precyzyjnych modułów laserowych do cel procesowych, stanowisk testowych i środowisk automatyzacji.
+  - title: Platformy specjalistyczne
+    text: Konfiguracja podsystemów optycznych, termicznych i sterowania według wymagań projektu.
+contact:
+  title: Skontaktuj się z ATEN Direct Energy
+  text: Porozmawiaj z zespołem ATEN o systemach laserowej energii kierunkowej, platformach eksperymentalnych, integracji optycznej lub nadchodzących partnerstwach badawczych związanych z przestrzenią kosmiczną.
+  email: hello@atendirect.energy
+footer:
+  copyright: © 2026 ATEN Direct Energy. Wszelkie prawa zastrzeżone.
+  line: Laserowa energia kierunkowa · Kontrola wiązki · Badania kosmiczne

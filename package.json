@@ -1,0 +1,11 @@
+{
+  "name": "aten-direct-energy-hugo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multilingual Hugo + JavaScript website for ATEN Direct Energy.",
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --minify"
+  },
+  "devDependencies": {}
+}

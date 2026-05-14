@@ -1,0 +1,110 @@
+meta_description: ATEN Direct Energy develops precision laser direct energy systems for industrial, research, and future space-facing applications.
+nav:
+  technology: Technology
+  systems: Systems
+  applications: Applications
+  space: Space R&D
+  contact: Contact
+theme_label: Toggle light and dark mode
+hero:
+  eyebrow: Laser direct energy systems
+  title_before: Reliable, controlled laser energy for
+  title_span: demanding applications
+  lead: ATEN Direct Energy develops precision laser platforms for industrial, research, and future space-facing applications, combining beam control, thermal stability, monitoring, and modular integration.
+  cta_primary: Explore technology
+  cta_secondary: View applications
+stats:
+- title: High-Intensity
+  text: Focused laser delivery for demanding experiments and process validation.
+- title: Modular
+  text: Source, optics, cooling, and sensors configured around the objective.
+- title: Measurable
+  text: Logged output, diagnostics, and repeatable operating profiles.
+technology:
+  title: Advanced Laser Beam Control
+  text: 'ATEN focuses on the practical engineering stack behind laser direct energy: source stability, optical paths, beam shaping, feedback control, thermal regulation, and safe operating envelopes.'
+  cards:
+  - title: Directed Beam Delivery
+    text: Precision optical alignment, focusing, and beam steering for controlled energy placement.
+    icon: beam
+  - title: Modular Architecture
+    text: Interchangeable source, optics, cooling, and sensor modules for faster iteration.
+    icon: grid
+  - title: Closed-Loop Monitoring
+    text: Continuous measurement of output, temperature, pointing stability, and system health.
+    icon: clock
+systems:
+  title: Engineered for measurable laser performance
+  text: 'ATEN systems are built around clarity: define the optical objective, control the energy path, measure performance, and make deployment repeatable.'
+  bullets:
+  - Power delivery and optical output characterized for each configuration.
+  - Thermal management designed for stability under sustained operating cycles.
+  - Software controls for diagnostics, calibration, and logged experiments.
+  features:
+  - title: Optical Precision
+    text: High-quality optical assemblies support accurate pointing, focusing, and beam conditioning.
+  - title: Thermal Stability
+    text: Cooling and heat-transfer design help maintain predictable performance during extended use.
+  - title: Control Software
+    text: Operator interfaces provide test profiles, calibration flows, logs, alerts, and system status.
+  - title: Safety Interlocks
+    text: Layered operating controls support lab and industrial laser safety workflows.
+applications:
+  title: Applications for laser direct energy
+  text: ATEN platforms are designed for teams that need controlled, measurable laser energy for demanding industrial and research workflows.
+  cards:
+  - kicker: Industrial
+    title: Advanced materials processing
+    text: High-intensity laser energy for controlled heating, surface treatment, joining research, and process validation.
+  - kicker: Testing
+    title: Component stress exposure
+    text: Repeatable exposure profiles for evaluating coatings, sensors, thermal shields, and optical components.
+  - kicker: Research
+    title: Laboratory beam platforms
+    text: Modular benches for beam shaping, power studies, detector calibration, and directed energy experiments.
+  - kicker: Infrastructure
+    title: Remote power concepts
+    text: Exploration of precise energy transfer, optical links, and high-efficiency delivery architectures.
+  - kicker: Optics
+    title: Alignment and calibration
+    text: Stable reference beams and diagnostic modules for optical payloads, fixtures, and high-accuracy assemblies.
+  - kicker: Automation
+    title: Machine-integrated laser cells
+    text: Laser modules designed to connect with robotic positioning, sensors, and process-control software.
+  - kicker: Energy
+    title: High-flux energy studies
+    text: Controlled flux delivery for experiments involving conversion efficiency, absorptivity, and thermal response.
+  - kicker: Future
+    title: Space-facing R&D
+    text: Early research pathways for optical energy transfer, resilient payload testing, and orbital infrastructure concepts.
+lab:
+- title: Beam shaping
+  text: Focus, divergence, profile, and delivery geometry.
+- title: Power control
+  text: Repeatable output profiles with logged performance data.
+- title: Sensor fusion
+  text: Power, thermal, pointing, and environmental feedback.
+- title: Integration
+  text: Hardware and software interfaces for test facilities.
+space:
+  eyebrow: Incoming research track
+  title: Preparing laser systems for the space economy.
+  p1: ATEN is positioning its laser direct energy platform toward space-relevant research, including optical power transfer concepts, payload exposure testing, thermal response studies, and precision beam control over extended distances.
+  p2: The goal is to create reliable ground-test infrastructure first, then mature the controls, diagnostics, and safety architecture needed for future space-facing demonstrations.
+mission:
+  title: Built for serious engineering teams
+  text: ATEN supports organizations developing high-intensity laser systems, controlled test environments, and advanced optical energy applications.
+  cards:
+  - title: Research & Development
+    text: Prototype, instrument, and validate laser direct energy concepts with a modular platform.
+  - title: Industrial Integration
+    text: Adapt precision laser modules into process cells, test fixtures, and automation environments.
+  - title: Specialized Platforms
+    text: Configure optical, thermal, and control subsystems around specific project requirements.
+contact:
+  title: Engage with ATEN Direct Energy
+  text: Contact the ATEN team to discuss laser direct energy systems, experimental platforms, optical integration, or upcoming space-facing research partnerships.
+  email: hello@atendirect.energy
+footer:
+  copyright: © 2026 ATEN Direct Energy. All rights reserved.
+  line: Laser direct energy · Beam control · Space-facing research

@@ -1,0 +1,25 @@
+baseURL = "https://example.com/"
+title = "ATEN Direct Energy"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-US"
+    weight = 1
+    contentDir = "content"
+  [languages.pl]
+    languageName = "Polski"
+    languageCode = "pl-PL"
+    weight = 2
+    contentDir = "content"
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr-FR"
+    weight = 3
+    contentDir = "content"
+
+[markup.goldmark.renderer]
+unsafe = true

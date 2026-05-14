@@ -1,0 +1,110 @@
+meta_description: ATEN Direct Energy développe des systèmes laser à énergie dirigée de précision pour l'industrie, la recherche et les futures applications liées à l'espace.
+nav:
+  technology: Technologie
+  systems: Systèmes
+  applications: Applications
+  space: R&D spatiale
+  contact: Contact
+theme_label: Basculer entre mode clair et mode sombre
+hero:
+  eyebrow: Systèmes laser à énergie dirigée
+  title_before: Une énergie laser fiable et contrôlée pour
+  title_span: les applications exigeantes
+  lead: ATEN Direct Energy développe des plateformes laser de précision pour l'industrie, la recherche et les futures applications orientées espace, en combinant contrôle du faisceau, stabilité thermique, supervision et intégration modulaire.
+  cta_primary: Explorer la technologie
+  cta_secondary: Voir les applications
+stats:
+- title: Haute intensité
+  text: Livraison laser focalisée pour expériences exigeantes et validation de procédés.
+- title: Modulaire
+  text: Source, optique, refroidissement et capteurs configurés autour de l'objectif.
+- title: Mesurable
+  text: Sortie enregistrée, diagnostics et profils de fonctionnement répétables.
+technology:
+  title: Contrôle avancé du faisceau laser
+  text: 'ATEN se concentre sur l''ingénierie pratique de l''énergie laser dirigée : stabilité de source, chemins optiques, mise en forme du faisceau, contrôle par retour d''information, régulation thermique et enveloppes d''exploitation sûres.'
+  cards:
+  - title: Livraison de faisceau dirigée
+    text: Alignement optique, focalisation et orientation du faisceau pour placer l'énergie avec précision.
+    icon: beam
+  - title: Architecture modulaire
+    text: Modules interchangeables de source, optique, refroidissement et capteurs pour itérer plus rapidement.
+    icon: grid
+  - title: Supervision en boucle fermée
+    text: Mesure continue de la sortie, de la température, de la stabilité de pointage et de l'état du système.
+    icon: clock
+systems:
+  title: Conçu pour une performance laser mesurable
+  text: 'Les systèmes ATEN reposent sur la clarté : définir l''objectif optique, contrôler le chemin de l''énergie, mesurer la performance et rendre le déploiement répétable.'
+  bullets:
+  - Livraison de puissance et sortie optique caractérisées pour chaque configuration.
+  - Gestion thermique conçue pour la stabilité lors de cycles prolongés.
+  - Contrôles logiciels pour diagnostics, calibration et expériences journalisées.
+  features:
+  - title: Précision optique
+    text: Des assemblages optiques de qualité soutiennent le pointage, la focalisation et le conditionnement du faisceau.
+  - title: Stabilité thermique
+    text: Le refroidissement et le transfert thermique maintiennent une performance prévisible en usage prolongé.
+  - title: Logiciel de contrôle
+    text: Les interfaces opérateur fournissent profils de test, calibration, journaux, alertes et état système.
+  - title: Interverrouillages de sécurité
+    text: Des contrôles par couches soutiennent les procédures de sécurité laser en laboratoire et en industrie.
+applications:
+  title: Applications de l'énergie laser dirigée
+  text: Les plateformes ATEN sont conçues pour les équipes qui ont besoin d'une énergie laser contrôlée et mesurable dans des flux de travail industriels et de recherche exigeants.
+  cards:
+  - kicker: Industrie
+    title: Traitement avancé des matériaux
+    text: Énergie laser haute intensité pour chauffage contrôlé, traitement de surface, recherche d'assemblage et validation de procédés.
+  - kicker: Essais
+    title: Exposition de composants aux contraintes
+    text: Profils d'exposition répétables pour évaluer revêtements, capteurs, écrans thermiques et composants optiques.
+  - kicker: Recherche
+    title: Plateformes de faisceau laboratoire
+    text: Bancs modulaires pour mise en forme du faisceau, études de puissance, calibration de détecteurs et expériences d'énergie dirigée.
+  - kicker: Infrastructure
+    title: Concepts d'alimentation à distance
+    text: Exploration du transfert d'énergie précis, des liens optiques et des architectures de livraison à haut rendement.
+  - kicker: Optique
+    title: Alignement et calibration
+    text: Faisceaux de référence stables et modules de diagnostic pour charges utiles optiques, montages et assemblages de précision.
+  - kicker: Automatisation
+    title: Cellules laser intégrées aux machines
+    text: Modules laser conçus pour se connecter au positionnement robotisé, aux capteurs et au logiciel de contrôle de procédé.
+  - kicker: Énergie
+    title: Études de flux énergétique élevé
+    text: Livraison de flux contrôlée pour expériences sur rendement de conversion, absorptivité et réponse thermique.
+  - kicker: Futur
+    title: R&D orientée espace
+    text: Premières voies de recherche pour le transfert optique d'énergie, les essais de résilience de charges utiles et les concepts d'infrastructure orbitale.
+lab:
+- title: Mise en forme
+  text: Focalisation, divergence, profil et géométrie de livraison.
+- title: Contrôle de puissance
+  text: Profils de sortie répétables avec données de performance enregistrées.
+- title: Fusion de capteurs
+  text: Retour d'information puissance, thermique, pointage et environnement.
+- title: Intégration
+  text: Interfaces matérielles et logicielles pour installations d'essai.
+space:
+  eyebrow: Axe de recherche entrant
+  title: Préparer les systèmes laser pour l'économie spatiale.
+  p1: ATEN oriente sa plateforme d'énergie laser dirigée vers la recherche liée à l'espace, notamment les concepts de transfert optique de puissance, les essais d'exposition de charges utiles, les études de réponse thermique et le contrôle précis du faisceau sur de longues distances.
+  p2: L'objectif est d'abord de créer une infrastructure d'essai au sol fiable, puis de faire mûrir les contrôles, les diagnostics et l'architecture de sécurité nécessaires aux futures démonstrations orientées espace.
+mission:
+  title: Pour des équipes d'ingénierie exigeantes
+  text: ATEN accompagne les organisations développant des systèmes laser haute intensité, des environnements d'essai contrôlés et des applications avancées d'énergie optique.
+  cards:
+  - title: Recherche & développement
+    text: Prototyper, instrumenter et valider les concepts d'énergie laser dirigée sur une plateforme modulaire.
+  - title: Intégration industrielle
+    text: Adapter des modules laser de précision aux cellules de procédé, aux montages d'essai et aux environnements d'automatisation.
+  - title: Plateformes spécialisées
+    text: Configurer les sous-systèmes optiques, thermiques et de contrôle selon les exigences du projet.
+contact:
+  title: Échanger avec ATEN Direct Energy
+  text: Contactez l'équipe ATEN pour discuter de systèmes laser à énergie dirigée, de plateformes expérimentales, d'intégration optique ou de futurs partenariats de recherche orientés espace.
+  email: hello@atendirect.energy
+footer:
+  copyright: © 2026 ATEN Direct Energy. Tous droits réservés.
+  line: Énergie laser dirigée · Contrôle du faisceau · Recherche spatiale

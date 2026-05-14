@@ -1,0 +1,186 @@
+{{- $d := index .Site.Data.home .Site.Language.Lang -}}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{ $d.meta_description }}" />
+  <title>{{ .Site.Title }} | Laser Direct Energy Systems</title>
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="ATEN Direct Energy home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" fill="none">
+              <circle class="brand-sun" cx="32" cy="16" r="10" />
+              <path class="brand-rays" d="M32 27v28M24 29 12 49M40 29l12 20M18 26 6 40M46 26l12 14" stroke-width="4" stroke-linecap="round" />
+            </svg>
+          </span>
+          <span>ATEN</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#technology">{{ $d.nav.technology }}</a>
+          <a href="#systems">{{ $d.nav.systems }}</a>
+          <a href="#applications">{{ $d.nav.applications }}</a>
+          <a href="#space">{{ $d.nav.space }}</a>
+        </nav>
+
+        <div class="nav-actions">
+          <nav class="language-switcher" aria-label="Language switcher">
+            {{- range .AllTranslations }}
+              <a class="{{ if eq .Lang $.Lang }}active{{ end }}" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}">{{ upper .Lang }}</a>
+            {{- end }}
+          </nav>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="{{ $d.theme_label }}">
+            <svg class="sun" viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            <svg class="moon" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.8 6.8 0 0 0 21 12.8Z"/></svg>
+          </button>
+          <a class="btn btn-primary" href="#contact">{{ $d.nav.contact }}</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <div class="eyebrow">{{ $d.hero.eyebrow }}</div>
+            <h1>{{ $d.hero.title_before }} <span>{{ $d.hero.title_span }}</span>.</h1>
+            <p class="lead">{{ $d.hero.lead }}</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#technology">{{ $d.hero.cta_primary }}</a>
+              <a class="btn btn-secondary" href="#applications">{{ $d.hero.cta_secondary }}</a>
+            </div>
+            <div class="stats" aria-label="Company highlights">
+              {{ range $d.stats }}
+              <div class="stat"><strong>{{ .title }}</strong><span>{{ .text }}</span></div>
+              {{ end }}
+            </div>
+          </div>
+
+          <div class="logo-card" aria-label="ATEN Direct Energy logo">
+            <div class="aten-logo">
+              <div class="solar-symbol" aria-hidden="true">
+                <div class="disc"></div>
+                <span class="ray r1"></span><span class="ray r2"></span><span class="ray r3"></span><span class="ray r4"></span><span class="ray r5"></span><span class="ray r6"></span><span class="ray r7"></span>
+              </div>
+              <div class="wordmark">
+                <div class="aten-text" aria-label="ATEN"><span class="letter-a"><span class="dot"></span></span><span>T</span><span class="letter-e"><span></span><span></span><span></span></span><span>N</span></div>
+                <div class="tagline">DIRECT ENERGY</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="technology">
+        <div class="container">
+          <div class="section-head">
+            <h2>{{ $d.technology.title }}</h2>
+            <p>{{ $d.technology.text }}</p>
+          </div>
+          <div class="cards">
+            {{ range $d.technology.cards }}
+            <article class="card">
+              <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+                {{ if eq .icon "beam" }}<path d="M3 12h18"/><path d="m15 6 6 6-6 6"/><path d="M3 8h5M3 16h5"/>{{ end }}
+                {{ if eq .icon "grid" }}<path d="M4 7h16M4 12h16M4 17h16"/><path d="M8 4v16M16 4v16"/>{{ end }}
+                {{ if eq .icon "clock" }}<path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l4 2"/>{{ end }}
+              </svg></div>
+              <h3>{{ .title }}</h3><p>{{ .text }}</p>
+            </article>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section id="systems">
+        <div class="container split">
+          <div class="panel">
+            <h2>{{ $d.systems.title }}</h2>
+            <p>{{ $d.systems.text }}</p>
+            <ul class="panel-list">
+              {{ range $d.systems.bullets }}<li>{{ . }}</li>{{ end }}
+            </ul>
+          </div>
+          <div class="features">
+            {{ range $i, $f := $d.systems.features }}
+            <div class="feature"><div class="feature-number">{{ printf "%02d" (add $i 1) }}</div><div><h3>{{ $f.title }}</h3><p>{{ $f.text }}</p></div></div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section id="applications" class="applications">
+        <div class="container">
+          <div class="section-head center">
+            <h2>{{ $d.applications.title }}</h2>
+            <p>{{ $d.applications.text }}</p>
+          </div>
+          <div class="app-grid">
+            {{ range $d.applications.cards }}
+            <article class="app-card"><span class="app-kicker">{{ .kicker }}</span><h3>{{ .title }}</h3><p>{{ .text }}</p></article>
+            {{ end }}
+          </div>
+          <div class="lab-strip" aria-label="System capabilities">
+            {{ range $d.lab }}
+            <div class="lab-item"><strong>{{ .title }}</strong><span>{{ .text }}</span></div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section id="space" class="space-band">
+        <div class="container">
+          <div class="space-box">
+            <div class="space-copy">
+              <div class="eyebrow">{{ $d.space.eyebrow }}</div>
+              <h2>{{ $d.space.title }}</h2>
+              <p>{{ $d.space.p1 }}</p>
+              <p>{{ $d.space.p2 }}</p>
+            </div>
+            <div class="orbit" aria-label="Abstract orbit and laser link graphic">
+              <span class="node n1"></span><span class="node n2"></span><span class="beam-line"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="mission">
+        <div class="container">
+          <div class="section-head">
+            <h2>{{ $d.mission.title }}</h2>
+            <p>{{ $d.mission.text }}</p>
+          </div>
+          <div class="cards">
+            {{ range $d.mission.cards }}<article class="card"><h3>{{ .title }}</h3><p>{{ .text }}</p></article>{{ end }}
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="cta">
+        <div class="container">
+          <div class="cta-box">
+            <h2>{{ $d.contact.title }}</h2>
+            <p>{{ $d.contact.text }}</p>
+            <a class="btn btn-primary" href="mailto:{{ $d.contact.email }}">{{ $d.contact.email }}</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <div>{{ $d.footer.copyright }}</div>
+        <div>{{ $d.footer.line }}</div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="{{ "js/theme.js" | relURL }}" defer></script>
+</body>
+</html>
